@@ -56,3 +56,12 @@ document.querySelector('.mainstop').addEventListener('click', function() {
       this.classList.remove('active');
   }
 });
+
+
+
+
+
+
+window.addEventListener("load", function() {
+  document.getElementById("loading-screen").style.display = "none";
+});
